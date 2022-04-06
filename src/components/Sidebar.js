@@ -31,14 +31,13 @@ const  SideBar = () => {
             </div>
             <div className="profile-navbar">
                 <ul>
-                    <li>My Profile</li>
-                    <li>Feed</li>
-                    <li>Messages</li>
-                    <li>Settings</li>
-                    <li>Settings</li>
-                    <li>Settings</li>
-                    <li>Settings</li>
-                    <li>Settings</li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">Feed</a></li>
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Settings</a></li>
                 </ul>
             </div>
             <div className="profile-logout">
