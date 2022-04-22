@@ -5,7 +5,7 @@ const SideBar = () => {
         <a href="#">
           <img
             src="http://demo.foxthemes.net/instellohtml/assets/images/logo.png"
-            class="logo_inverse"
+            className="logo_inverse"
           />
         </a>
       </div>

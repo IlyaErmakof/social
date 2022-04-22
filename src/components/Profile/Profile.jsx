@@ -1,4 +1,8 @@
-const Profile = () => (
+import Posts from "./Posts";
+
+const Profile = () => {
+
+    return (
   <div>
     <div className="top-content">
       <div className="top-content-img">
@@ -15,14 +19,15 @@ const Profile = () => (
         </p>
         <div className="top-content-info_hobbi">Sport, Movies, Travailing</div>
         <div className="top-content-info_button">
-          <button>add friend</button>
-          <button>send message</button>
+          <button className="profile-button-add">add friend</button>
+          <button className="profile-button-send">send message</button>
         </div>
       </div>
       <div className="w-20"></div>
     </div>
     <h1>Posts</h1>
+    <Posts />
   </div>
 );
-
+    }
 export default Profile;
